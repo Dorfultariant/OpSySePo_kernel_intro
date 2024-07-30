@@ -1,0 +1,10 @@
+XV6 PUBLIC FOLDER:
+CHANGES:
+
+FILE: CHANGES MARKED WITH WARNING
+syscall.h: Added macro SYS_getreadcount with value 22
+syscall.c: Added SYS_getreadcount to syscalls[] struct and extern for SYS_getreadcount
+sysproc.c: Contains the actual implementation of SYS_getreadcount
+usys.S: Added SYSCALL for getreadcount
+user.h: Added int getreadcount(void); for func definition
+

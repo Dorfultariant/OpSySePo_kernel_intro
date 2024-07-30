@@ -1,0 +1,3 @@
+// ...
+// WARNING: MY OWN SYSCALL
+int getreadcount(void);
